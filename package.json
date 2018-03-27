@@ -5,11 +5,11 @@
   "author": "H",
   "license": "MIT",
   "scripts": {
-    "build:dev": "webpack --watch",
+    "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
     "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
-    "test": " cross-env NOCE_ENV=test jest --config=jest.config.json",
+    "test": " cross-env NODE_ENV=test jest --config=jest.config.json",
     "start": "node server/server.js",
     "heroku-postbuild": "yarn run build:prod"
   },
