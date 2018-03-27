@@ -72,12 +72,12 @@ export { firebase, database as default };
 //   createdAt: 134566
 // });
 
-database.ref('expenses').push({
-  description: 'Lawyer',
-  note: 'once',
-  amount: 1200.00,
-  createdAt: 7645757
-});
+// database.ref('expenses').push({
+//   description: 'Lawyer',
+//   note: 'once',
+//   amount: 1200.00,
+//   createdAt: 7645757
+// });
 
 
 // database.ref('notes/-L88v240Q3XrzMYFNE4z').remove();
