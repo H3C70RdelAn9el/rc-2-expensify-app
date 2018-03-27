@@ -9,8 +9,11 @@ import getVisibleExpenses from './selectors/expenses';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 import 'react-dates/lib/css/_datepicker.css';
+import './firebase/firebase';
+import './playground/promises'
 
 const store = configureStore();
+
 
 // store.dispatch(addExpense({ description: 'Water Bill', amount: 4500 }));
 // store.dispatch(addExpense({ description: 'Gas Bill', createdAt: 1000 }));
