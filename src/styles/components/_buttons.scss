@@ -1,0 +1,30 @@
+// .login-button {
+//   display: flex;
+//   justify-content: center;
+//   background-color: blue;
+//   text-align: center;
+//   padding: $s-size $s-size $s-size $s-size;
+//   width: 10rem;
+//   color: white;
+// }
+
+
+.buttons {
+  background: $light-blue;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+}
+
+.buttons--link {
+  background: none;
+}
+
+.buttons--secondary {
+  background: #888;
+}
